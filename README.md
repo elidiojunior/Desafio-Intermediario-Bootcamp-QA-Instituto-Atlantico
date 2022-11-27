@@ -150,6 +150,7 @@ Para realizar a execução do projeto pode uitlizar uma das duas formas apresent
 
 -  Executar arquivo .bat que se encontra na pasta do projeto
 -  Abrir o terminal de comando na pasta do projeto e executar o codigo:
+   
    ``robot -N "Seu Barriga" -d results tests``
 
 ## LinkedIn
