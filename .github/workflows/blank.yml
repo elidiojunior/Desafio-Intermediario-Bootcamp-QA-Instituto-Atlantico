@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     name: Run Robot Framework Tests
     steps:
       - name: Checkout
@@ -26,5 +26,5 @@ jobs:
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
-            robot_reports_dir: tests
+            robot_reports_dir: '$WORKSPACE/tests'
 
