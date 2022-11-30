@@ -26,5 +26,5 @@ jobs:
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
-            robot_reports_dir: '$WORKSPACE/tests'
+            robot_reports_dir: '$WORKSPACE/Desafio-Intermediario-Bootcamp-QA-Instituto-Atlantico/tests'
 
