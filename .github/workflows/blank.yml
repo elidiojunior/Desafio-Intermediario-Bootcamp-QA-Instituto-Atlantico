@@ -22,7 +22,7 @@ jobs:
     name: Run Robot Framework Tests
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Robot Framework
         uses: joonvena/robotframework-docker-action@v1.0
         with:
